@@ -151,26 +151,28 @@ a:hover img {
   text-align: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 600px) {
   .navbar {
       flex-direction: column;
       text-align: center;
   }
 
   .tabela {
-    flex-direction: column;
-    text-align: center;
-    margin: 0;
-    height: 600px;
-    border: solid 5px brown;
-    border-radius: 10px;
+    margin: 10px;
+    font-size: 14px;
   }
 
   img {
-    width: 100px;
-    height: 80px;
+    width: 400px;
+    height: 280px;
   }
 
+  .fonteg{
+    font-size: 60px;
+  }
 
-  
-}
+  .fonte{
+    font-size: 28px;
+  }
+
+} 
