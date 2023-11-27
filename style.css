@@ -160,7 +160,17 @@ a:hover img {
   .tabela {
     flex-direction: column;
     text-align: center;
+    margin: 0;
+    height: 600px;
+    border: solid 5px brown;
+    border-radius: 10px;
   }
+
+  img {
+    width: 100px;
+    height: 80px;
+  }
+
 
   
 }
