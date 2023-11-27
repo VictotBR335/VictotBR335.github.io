@@ -11,6 +11,7 @@ ul.navbar {
    
   }
   
+  
   li.nav-item {
     text-align: center;
     align-items: center;
@@ -148,4 +149,18 @@ a:hover img {
   margin: 200px;
   height: 600px;
   text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .tabela {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
 }
