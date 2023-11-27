@@ -159,7 +159,9 @@ a:hover img {
 
   .tabela {
     margin: 10px;
-    font-size: 14px;
+    width: auto;
+    text-align: center;
+    font-size: 10px;
   }
 
   img {
@@ -167,12 +169,36 @@ a:hover img {
     height: 280px;
   }
 
+  .imagem {
+    width: 400px;
+    height: 280px;
+
+  }
+
+  .imgtabela {
+    width: 220px;
+    height: 160px;
+  }
+
+  .ultimatabela {
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    font-size: 10px;
+  
+  
+  }
+
+  video {
+    width: 400px;
+    height: 280px;
+  }
+
   .fonteg{
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .fonte{
-    font-size: 28px;
+    font-size: 22px;
   }
-
-} 
+}
